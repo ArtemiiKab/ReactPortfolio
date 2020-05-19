@@ -1,0 +1,19 @@
+.container {
+    display:flex; 
+    justify-content: space-evenly; 
+    width:100vw; 
+  
+   
+    background-color: #223343;
+    color:#EEE; 
+    padding:10px 10px; 
+
+    font-size: 42px; 
+    font-weight: 700; 
+    z-index: 10;
+} 
+
+.navItem:hover{
+    color:#4484C4; 
+    cursor: pointer;
+}

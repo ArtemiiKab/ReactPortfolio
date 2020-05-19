@@ -1,0 +1,39 @@
+
+  
+  *{
+    margin:0;
+    padding:0; 
+    box-sizing:border-box;
+  }  
+
+  .movieDBMain{  
+    display:flex; 
+    flex-direction: column;
+    width:100vw; 
+    height: auto; 
+    min-height: 900px;
+    background-image:url("../../img/movieDB.jpg") ;  
+    background-size: auto; 
+   
+    align-items: center;
+  } 
+
+  .movieHeader{ 
+    display:flex;
+    width:70%;  
+    height:12%; 
+    justify-content: center;
+  }  
+
+  .searchTag{
+    display:flex; 
+    width:80%;
+  }
+
+  .movieChoiceMain{
+    display:flex; 
+    flex-wrap: wrap;  
+    justify-content: center;
+  }
+  
+ 
